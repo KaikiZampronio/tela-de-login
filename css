@@ -1,0 +1,88 @@
+/*selector {
+    propriedade: valor;
+}  */
+html{
+  background-color: antiquewhite;
+}
+#form{
+  background-color: rgb(255, 255, 255);
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 80px;
+  border-radius: 10px;
+  width: 20%;
+}
+#dados{
+  padding: 15px;
+  border-style: double;
+  border-radius: 10px;
+  outline: none;
+  width: 90%;
+  border: none;
+}
+.dados input{
+  padding: 15px;
+  border-style: double;
+  border-radius: 10px;
+  outline: none;
+  width: 90%;
+}
+.check button{
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 15px;
+}
+.check button:hover{
+  background-color: deepskyblue;
+}
+select{
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+  font-size: 15px;
+}
+.check input{
+  padding: 15px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.info{
+  background-color: rgb(255, 255, 255);
+  position: absolute; 
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  border-radius: 15px;
+  width: 30%;
+  font-size: 15px;
+}
+.info button{
+  background-color: forestgreen;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 7px;
+}
+.info button:hover{
+  background-color: chartreuse;
+}
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+}
+thead{
+  background-color: dodgerblue;
+}
+caption{
+  font-size: 1.3em;
+  padding: 10px;
+}
